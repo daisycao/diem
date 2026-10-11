@@ -1,13 +1,6 @@
 <p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="media/brand/diem-logo-horizontal-white.svg">
-    <img src="media/brand/diem-logo-horizontal-green.svg" width="320" alt="Diem">
-  </picture>
-</p>
-
-<!-- HERO IMAGE: media/readme/hero.png goes here once drawn -->
+<p align="center"><img src="media/readme/hero.jpg" alt="Diem: Pip carries your handwritten page to Toto, who turns it into a beautiful day"></p>
 
 <h3 align="center">Handwrite your day. Get a beautiful day back.</h3>
 
@@ -32,7 +25,7 @@ Diem is a Mac app for one day at a time: a paper for loose thoughts, a pond for 
 
 ## Meet the crew
 
-<!-- CREW IMAGE: media/readme/crew.png goes here once drawn -->
+<p align="center"><img src="media/readme/crew.jpg" alt="Pip, Toto, Fetch and Zaza at the desk"></p>
 
 They live in Claude Code. Whatever they touch, they sign.
 

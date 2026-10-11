@@ -1,13 +1,6 @@
 <p align="center"><a href="README.md">English</a> · <b>简体中文</b></p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="media/brand/diem-logo-horizontal-white.svg">
-    <img src="media/brand/diem-logo-horizontal-green.svg" width="320" alt="这一天 · Diem">
-  </picture>
-</p>
-
-<!-- 首图：media/readme/hero.png，画好后放这里 -->
+<p align="center"><img src="media/readme/hero.jpg" alt="这一天：拾拾把手写纸交给妥妥，变成漂亮的一天"></p>
 
 <h3 align="center">手写你的一天，收回漂亮的一天。</h3>
 
@@ -32,7 +25,7 @@
 
 ## 认识小伙伴
 
-<!-- 合影：media/readme/crew.png，画好后放这里 -->
+<p align="center"><img src="media/readme/crew.jpg" alt="拾拾、妥妥、闻闻、喳喳"></p>
 
 它们住在 Claude Code 里。动过你的东西，都会签上名字。
 
