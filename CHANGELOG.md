@@ -9,6 +9,12 @@ Not in 1.0 yet; in the author's own copy, being cleaned up for release:
 - AI at work: Claude Code and Codex sessions, side by side with your day.
 - Weekly phone view in the review.
 
+## 1.0.1 · 2026-10-11
+
+- New logo and app icon. Diem green is the default color.
+- Works with any AI agent that can edit files, not just Claude Code (Claude Code is still recommended). The folder now also has `GEMINI.md`.
+- The splash screen shows the logo.
+
 ## 1.0.0 · 2026-10-11
 
 First public release.
