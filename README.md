@@ -110,7 +110,8 @@ The version I use myself does more than this one. It also records **what actuall
 
 - ⭐ **Star this repo** if you'd like Diem to keep growing. It's the simplest way to say "I'm here".
 - 👀 **Watch → Custom → Releases** to hear when the next version ships.
-- 💬 **[Open an issue](https://github.com/daisycao/diem/issues/new)** to ask for a feature, report a bug, or just tell me how you plan your day. Which one do you want first: Mac activity, phone screen time, or an iPhone app?
+- 🗳️ **[Vote and chat in Discussions](https://github.com/daisycao/diem/discussions)**: tell me how you plan your day, and which one you want first: Mac activity, phone screen time, or an iPhone app.
+- 🐞 **[Open an issue](https://github.com/daisycao/diem/issues/new)** for bugs and concrete feature requests.
 
 ## Build from source
 
@@ -240,7 +241,8 @@ Needs Xcode command line tools and Node 20+. The UI is TypeScript (`app/web/src`
 
 - ⭐ **给这个仓库点个 Star**：想让 Diem 接着长，这是最简单的一句「我在」。
 - 👀 **右上角 Watch → Custom → 勾选 Releases**：下一版发布时会通知你。
-- 💬 **[提一个 Issue](https://github.com/daisycao/diem/issues/new)**：要功能、报 bug，或者只是说说你怎么排一天，都欢迎（中文就行）。你最想先要哪个：电脑记录、手机使用时间，还是 iPhone 版？
+- 🗳️ **[来 Discussions 投票、聊天](https://github.com/daisycao/diem/discussions)**：说说你怎么排一天，最想先要哪个：电脑记录、手机使用时间，还是 iPhone 版（中文就行）。
+- 🐞 **[提一个 Issue](https://github.com/daisycao/diem/issues/new)**：报 bug、提具体的功能需求。
 
 ## 从源码编译
 
