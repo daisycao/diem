@@ -1,5 +1,14 @@
 # Changelog
 
+## Coming next
+
+Not in 1.0 yet; in the author's own copy, being cleaned up for release:
+
+- Mac activity: a background recorder logs the front app (and site), shown beside the timeline and in reviews. No keystrokes, no screenshots, stays local.
+- Phone screen time: an Android companion app sends per-app usage, unlocks and listening time to Diem over Wi-Fi.
+- AI at work: Claude Code and Codex sessions, side by side with your day.
+- Weekly phone view in the review.
+
 ## 1.0.0 · 2026-10-11
 
 First public release.

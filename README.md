@@ -91,6 +91,27 @@ All off by default, in Me → Labs:
 - **Places**: Diem reads your Wi-Fi name to know if you're home or at the office, and floats up what you can do there.
 - **Colors follow the almanac**: picks one of six ink colors from the day's Chinese stem-and-branch element. Just for a good mood.
 
+## Coming next: your whole day, not just your plan
+
+The version I use myself does more than this one. It also records **what actually happened**, and lays it next to what you planned. I left it out of 1.0 because it touches private data and needs more polish before it's ready for everyone.
+
+<p align="center"><img src="media/readme/next-day.jpg" width="720" alt="Coming next: calendar, Mac, AI at work and phone side by side in one daily review"></p>
+
+- **Mac activity.** A tiny background recorder notes which app is in front (and which site, in the browser). Never keystrokes, never screenshots, never leaves your Mac. It shows as a thin strip beside the timeline and as a column in the review.
+- **Phone screen time.** A companion app (Android first) records which apps you used, when, how often you unlocked, and what you listened to, and sends it to Diem over your Wi-Fi.
+- **AI at work.** See when Claude Code and Codex were working for you, right next to your own day.
+- **A weekly view.** How the phone fit into each day of the week, by category and by hour.
+
+<p align="center"><img src="media/readme/next-week.jpg" width="720" alt="Coming next: phone this week, by category and by hour"></p>
+
+*Sample data in these pictures.*
+
+## Want it? Tell me
+
+- ⭐ **Star this repo** if you'd like Diem to keep growing. It's the simplest way to say "I'm here".
+- 👀 **Watch → Custom → Releases** to hear when the next version ships.
+- 💬 **[Open an issue](https://github.com/daisycao/diem/issues/new)** to ask for a feature, report a bug, or just tell me how you plan your day. Which one do you want first: Mac activity, phone screen time, or an iPhone app?
+
 ## Build from source
 
 ```bash
@@ -199,6 +220,27 @@ Needs Xcode command line tools and Node 20+. The UI is TypeScript (`app/web/src`
 - **喳喳**：截止日、在等别人的事，发 Mac 通知。
 - **地点**：读 Wi-Fi 名字判断你在家还是在办公室，那里能做的事浮上来。
 - **配色跟着流日**：按当天干支五行，从六套墨色里挑一套，图个好心情。
+
+## 下一版预告：不只是计划，还有真实的一天
+
+我自己用的那一版比这个多一块：它会记下**这一天实际是怎么过的**，放在你的计划旁边对照。这块涉及隐私，还要再打磨，所以 1.0 先没放。
+
+<p align="center"><img src="media/readme/next-day.jpg" width="720" alt="下一版预告：日历、电脑、AI 工作、手机放在同一张日报里对照"></p>
+
+- **电脑记录**：后台一个很小的记录器，只记前台是哪个 app（浏览器里是哪个网站）。不记按键、不截屏，数据不出你的 Mac。在时间轴旁边是一根细条，日报里是一列。
+- **手机使用时间**：配套的手机 app（先做安卓）记下用了哪些 app、什么时候、解锁几次、在听什么，连上同一个 Wi-Fi 就送到 Mac。
+- **AI 工作**：Claude Code、Codex 什么时候在替你干活，和你自己的一天放在一起看。
+- **一周视图**：手机这一周每天用了多久、按类别、按钟点。
+
+<p align="center"><img src="media/readme/next-week.jpg" width="720" alt="下一版预告：手机这一周，按类别、按钟点"></p>
+
+*图里是示例数据。*
+
+## 想要？告诉我
+
+- ⭐ **给这个仓库点个 Star**：想让 Diem 接着长，这是最简单的一句「我在」。
+- 👀 **右上角 Watch → Custom → 勾选 Releases**：下一版发布时会通知你。
+- 💬 **[提一个 Issue](https://github.com/daisycao/diem/issues/new)**：要功能、报 bug，或者只是说说你怎么排一天，都欢迎（中文就行）。你最想先要哪个：电脑记录、手机使用时间，还是 iPhone 版？
 
 ## 从源码编译
 
