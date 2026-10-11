@@ -1,0 +1,5 @@
+CFBundleDisplayName = "这一天";
+CFBundleName = "这一天";
+NSCalendarsFullAccessUsageDescription = "这一天把时间轴上的事写进「Diem」日历，iPhone 上就能看到、到点提醒。只动它自己写的事件。";
+NSLocationUsageDescription = "只用来读 Wi-Fi 名字，判断你在家还是在办公室（实验功能）。不记录位置。";
+NSLocationWhenInUseUsageDescription = "只用来读 Wi-Fi 名字，判断你在家还是在办公室（实验功能）。不记录位置。";

@@ -1,0 +1,16 @@
+{
+  "name": "diem",
+  "private": true,
+  "version": "0.9.2",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "dev": "node tools/build.mjs && node tools/dev-server.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "paper-{{S0}}",
+  "title": "{{TITLE_EN}}",
+  "created": "{{D0}}",
+  "blocks": [
+    {
+      "id": "b1",
+      "kind": "item",
+      "x": 56,
+      "y": 130,
+      "w": 400,
+      "text": "Finish landing page copy",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 120,
+      "circled": true,
+      "num": 1,
+      "links": [
+        "it1"
+      ]
+    },
+    {
+      "id": "b2",
+      "kind": "item",
+      "x": 56,
+      "y": 178,
+      "w": 400,
+      "text": "Reply to Sam — contract",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 2,
+      "links": [
+        "it2"
+      ]
+    },
+    {
+      "id": "b3",
+      "kind": "item",
+      "x": 56,
+      "y": 226,
+      "w": 400,
+      "text": "Sketch logo ideas",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 45,
+      "num": 3,
+      "links": [
+        "it3"
+      ]
+    },
+    {
+      "id": "b4",
+      "kind": "item",
+      "x": 56,
+      "y": 274,
+      "w": 400,
+      "text": "Read Four Thousand Weeks ch.3",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 30,
+      "num": 4,
+      "links": [
+        "it4"
+      ]
+    },
+    {
+      "id": "b5",
+      "kind": "item",
+      "x": 56,
+      "y": 322,
+      "w": 400,
+      "text": "Gym",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 60,
+      "num": 5,
+      "links": [
+        "it5"
+      ]
+    },
+    {
+      "id": "b6",
+      "kind": "item",
+      "x": 56,
+      "y": 370,
+      "w": 400,
+      "text": "Clean up inbox",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 6,
+      "struck": true
+    },
+    {
+      "id": "h1",
+      "kind": "heading",
+      "x": 500,
+      "y": 130,
+      "w": 240,
+      "text": "Out",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "b7",
+      "kind": "item",
+      "x": 500,
+      "y": 178,
+      "w": 240,
+      "text": "Call dentist",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "errand": true,
+      "links": [
+        "it6"
+      ]
+    },
+    {
+      "id": "b8",
+      "kind": "item",
+      "x": 500,
+      "y": 226,
+      "w": 240,
+      "text": "Groceries\neggs, oat milk, basil",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "errand": true,
+      "links": [
+        "it7"
+      ]
+    },
+    {
+      "id": "b9",
+      "kind": "item",
+      "x": 500,
+      "y": 300,
+      "w": 240,
+      "text": "Pick up package",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "errand": true
+    },
+    {
+      "id": "h2",
+      "kind": "heading",
+      "x": 56,
+      "y": 470,
+      "w": 400,
+      "text": "This week",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "b10",
+      "kind": "item",
+      "x": 56,
+      "y": 518,
+      "w": 400,
+      "text": "Ship beta to 10 friends",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 1,
+      "circled": true
+    },
+    {
+      "id": "b11",
+      "kind": "item",
+      "x": 56,
+      "y": 566,
+      "w": 400,
+      "text": "Draft the newsletter",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 2
+    },
+    {
+      "id": "b12",
+      "kind": "item",
+      "x": 56,
+      "y": 614,
+      "w": 400,
+      "text": "Plan Mia's birthday\nbook the place by Thu?",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 3
+    },
+    {
+      "id": "h3",
+      "kind": "heading",
+      "x": 56,
+      "y": 720,
+      "w": 400,
+      "text": "Ideas",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "n1",
+      "kind": "note",
+      "x": 56,
+      "y": 768,
+      "w": 400,
+      "text": "morning pages for a week?",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "n2",
+      "kind": "note",
+      "x": 56,
+      "y": 812,
+      "w": 400,
+      "text": "turn this paper into my calendar??",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    }
+  ],
+  "arrows": [
+    {
+      "id": "a1",
+      "from": "b3",
+      "to": "b1",
+      "by": "me"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "y": 440,
+      "x1": 48,
+      "x2": 746
+    }
+  ],
+  "side": [],
+  "slips": [
+    {
+      "id": "sl1",
+      "by": "Pip",
+      "status": "open",
+      "text": "Hi, I'm Pip 🐿️ This is a sample paper. Click anywhere to write. Drag a line into the pond in the middle to make it a task, then onto the timeline on the right to plan it. Dismiss me when you're done."
+    }
+  ]
+}

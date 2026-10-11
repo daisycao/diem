@@ -1,0 +1,242 @@
+{
+  "id": "paper-{{S0}}",
+  "title": "{{TITLE_ZH}}",
+  "created": "{{D0}}",
+  "blocks": [
+    {
+      "id": "b1",
+      "kind": "item",
+      "x": 56,
+      "y": 130,
+      "w": 400,
+      "text": "把落地页文案写完",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 120,
+      "circled": true,
+      "num": 1,
+      "links": [
+        "it1"
+      ]
+    },
+    {
+      "id": "b2",
+      "kind": "item",
+      "x": 56,
+      "y": 178,
+      "w": 400,
+      "text": "回 Sam：合同的事",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 2,
+      "links": [
+        "it2"
+      ]
+    },
+    {
+      "id": "b3",
+      "kind": "item",
+      "x": 56,
+      "y": 226,
+      "w": 400,
+      "text": "画几个 logo 草图",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 45,
+      "num": 3,
+      "links": [
+        "it3"
+      ]
+    },
+    {
+      "id": "b4",
+      "kind": "item",
+      "x": 56,
+      "y": 274,
+      "w": 400,
+      "text": "读《四千周》第三章",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 30,
+      "num": 4,
+      "links": [
+        "it4"
+      ]
+    },
+    {
+      "id": "b5",
+      "kind": "item",
+      "x": 56,
+      "y": 322,
+      "w": 400,
+      "text": "健身",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "estimate": 60,
+      "num": 5,
+      "links": [
+        "it5"
+      ]
+    },
+    {
+      "id": "b6",
+      "kind": "item",
+      "x": 56,
+      "y": 370,
+      "w": 400,
+      "text": "清理收件箱",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 6,
+      "struck": true
+    },
+    {
+      "id": "h1",
+      "kind": "heading",
+      "x": 500,
+      "y": 130,
+      "w": 240,
+      "text": "出门",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "b7",
+      "kind": "item",
+      "x": 500,
+      "y": 178,
+      "w": 240,
+      "text": "约牙医",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "errand": true,
+      "links": [
+        "it6"
+      ]
+    },
+    {
+      "id": "b8",
+      "kind": "item",
+      "x": 500,
+      "y": 226,
+      "w": 240,
+      "text": "买菜\n鸡蛋、燕麦奶、罗勒",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "errand": true,
+      "links": [
+        "it7"
+      ]
+    },
+    {
+      "id": "b9",
+      "kind": "item",
+      "x": 500,
+      "y": 300,
+      "w": 240,
+      "text": "取快递",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "errand": true
+    },
+    {
+      "id": "h2",
+      "kind": "heading",
+      "x": 56,
+      "y": 470,
+      "w": 400,
+      "text": "这周",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "b10",
+      "kind": "item",
+      "x": 56,
+      "y": 518,
+      "w": 400,
+      "text": "把测试版发给 10 个朋友",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 1,
+      "circled": true
+    },
+    {
+      "id": "b11",
+      "kind": "item",
+      "x": 56,
+      "y": 566,
+      "w": 400,
+      "text": "写这期周报",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 2
+    },
+    {
+      "id": "b12",
+      "kind": "item",
+      "x": 56,
+      "y": 614,
+      "w": 400,
+      "text": "准备 Mia 的生日\n周四前订好地方？",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}",
+      "num": 3
+    },
+    {
+      "id": "h3",
+      "kind": "heading",
+      "x": 56,
+      "y": 720,
+      "w": 400,
+      "text": "想法",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "n1",
+      "kind": "note",
+      "x": 56,
+      "y": 768,
+      "w": 400,
+      "text": "连着写一周晨间日记？",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    },
+    {
+      "id": "n2",
+      "kind": "note",
+      "x": 56,
+      "y": 812,
+      "w": 400,
+      "text": "把这张纸直接变成日历？？",
+      "by": "me",
+      "created": "{{D0}}T07:40:00{{TZ}}"
+    }
+  ],
+  "arrows": [
+    {
+      "id": "a1",
+      "from": "b3",
+      "to": "b1",
+      "by": "me"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "y": 440,
+      "x1": 48,
+      "x2": 746
+    }
+  ],
+  "side": [],
+  "slips": [
+    {
+      "id": "sl1",
+      "by": "Pip",
+      "status": "open",
+      "text": "你好，我是拾拾 🐿️ 这是一张示例纸。点空白处写字；把一行拖到中间的池塘，它就成了一件事；再拖到右边的时间轴就排上了。看完把我叉掉吧。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Long+Cang&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-mode="think">
+<div id="splash" class="splash" aria-hidden="true">
+  <div class="splash-t" data-en="Handwrite your day.">事了了，心从容</div>
+  <div class="splash-s" data-en="Diem">这一天 · Diem</div>
+  <div class="splash-c">Carpe diem</div>
+</div>
+
+<!-- 顶部 40pt 是原生拖窗条，这里只放文字，不放按钮 -->
+<header class="titlebar"><span id="title-line">Diem</span></header>
+
+<nav class="toolbar">
+  <div class="seg" role="group" aria-label="Today">
+    <button type="button" data-mode="think" title="⌘1" data-en="Think">摊开想</button>
+    <button type="button" data-mode="plan" title="⌘2" data-en="Plan">摆今天</button>
+  </div>
+  <div class="seg small" role="group" aria-label="Columns">
+    <button type="button" data-toggle="paper" title="⌥⌘1" data-en="Paper">纸</button>
+    <button type="button" data-toggle="list" title="⌥⌘2" data-en="Pond">池塘</button>
+    <button type="button" data-toggle="time" title="⌥⌘3" data-en="Timeline">时间轴</button>
+  </div>
+  <span class="grow"></span>
+  <button id="place" class="text-btn" type="button"></button>
+  <button id="review" class="text-btn" type="button">日报</button>
+  <button id="say" class="text-btn" type="button" data-en="🐾 Ask the crew…">🐾 交给 AI…</button>
+  <span class="bar-sep" aria-hidden="true"></span>
+  <button id="shelf" class="text-btn" type="button" title="做完的事、笔记、日报、纸箱，和工作目录" data-en-title="Done, notes, reviews, box, and your folder" data-en="📁 Kept">📁 收着的</button>
+  <button id="me" class="text-btn me-btn" type="button" title="配色、日历、实验功能、工作目录">我的</button>
+</nav>
+
+<div id="memo" class="memo" hidden></div>
+
+<main id="cols" class="cols">
+  <section id="col-paper" class="col col-paper">
+    <button class="rail" type="button" data-col="paper" data-en="The paper">就是那张纸</button>
+    <header class="col-head" id="paper-bar"></header>
+    <div id="paper-slips" class="slips" hidden></div>
+    <div class="paper-scroll" id="paper-scroll">
+      <div class="paper-row">
+        <div id="paper-stage" class="stage"></div>
+      </div>
+    </div>
+    <div class="quick"><input id="paper-input" type="text" autocomplete="off" spellcheck="false" placeholder="写一个念头，回车放到纸上" data-en-ph="Write a thought, press Return to put it on the paper"></div>
+  </section>
+
+  <div class="rz" data-rz="1" aria-hidden="true"></div>
+
+  <section id="col-list" class="col col-list" data-drop="list">
+    <button class="rail" type="button" data-col="list" data-en="The pond">今日池塘</button>
+    <header class="col-head"><span class="col-title" data-en="The pond">今日池塘</span><span id="list-count" class="l-n"></span></header>
+    <div class="quick top"><input id="list-input" type="text" autocomplete="off" spellcheck="false" placeholder="加一件确定要做的事，回车" data-en-ph="Add something you will do, press Return"></div>
+    <div id="list-body" class="list-body"></div>
+  </section>
+
+  <div class="rz" data-rz="2" aria-hidden="true"></div>
+
+  <section id="col-time" class="col col-time" data-drop="time">
+    <button class="rail" type="button" data-col="time" data-en="Timeline">时间轴</button>
+    <header class="col-head" id="time-head"></header>
+    <div id="time-body" class="time-body"></div>
+  </section>
+</main>
+
+<aside id="detail" class="detail" aria-label="Details"></aside>
+<div id="ghost" class="ghost"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>

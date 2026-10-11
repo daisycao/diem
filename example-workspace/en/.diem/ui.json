@@ -1,0 +1,14 @@
+{
+  "mode": "think",
+  "cur": "paper-{{S0}}",
+  "collapsed": {
+    "paper": false,
+    "list": false,
+    "time": false
+  },
+  "widths": {
+    "paperPlan": 520,
+    "listThink": 360,
+    "time": 340
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key><string>en</string>
+  <key>CFBundleLocalizations</key><array><string>en</string><string>zh-Hans</string></array>
+  <key>LSHasLocalizedDisplayName</key><true/>
+  <key>CFBundleDisplayName</key><string>Diem</string>
+  <key>CFBundleName</key><string>Diem</string>
+  <key>CFBundleExecutable</key><string>Diem</string>
+  <key>CFBundleIconFile</key><string>Diem</string>
+  <key>CFBundleIdentifier</key><string>com.diem.app</string>
+  <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>1.0.0</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>CFBundleURLTypes</key><array><dict><key>CFBundleURLName</key><string>com.diem.app</string><key>CFBundleURLSchemes</key><array><string>diem</string></array></dict></array>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSHumanReadableCopyright</key><string>Carpe diem. MIT License.</string>
+  <key>NSCalendarsFullAccessUsageDescription</key><string>Diem writes the blocks on your timeline to a "Diem" calendar, so your iPhone shows them and alerts you. Diem only touches events it created.</string>
+  <key>NSLocationUsageDescription</key><string>Only used to read the Wi-Fi name, so Diem knows whether you are at home or at the office (Labs). Your location is never recorded.</string>
+  <key>NSLocationWhenInUseUsageDescription</key><string>Only used to read the Wi-Fi name, so Diem knows whether you are at home or at the office (Labs). Your location is never recorded.</string>
+</dict>
+</plist>

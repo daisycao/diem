@@ -1,0 +1,5 @@
+CFBundleDisplayName = "Diem";
+CFBundleName = "Diem";
+NSCalendarsFullAccessUsageDescription = "Diem writes the blocks on your timeline to a \"Diem\" calendar, so your iPhone shows them and alerts you. Diem only touches events it created.";
+NSLocationUsageDescription = "Only used to read the Wi-Fi name, so Diem knows whether you are at home or at the office (Labs). Your location is never recorded.";
+NSLocationWhenInUseUsageDescription = "Only used to read the Wi-Fi name, so Diem knows whether you are at home or at the office (Labs). Your location is never recorded.";

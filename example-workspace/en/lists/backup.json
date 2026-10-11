@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "it1",
+      "title": "Finish landing page copy",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b1"
+      },
+      "estimate": 120,
+      "star": true,
+      "plan": {
+        "date": "{{D0}}",
+        "start": 540,
+        "dur": 120
+      }
+    },
+    {
+      "id": "it2",
+      "title": "Reply to Sam — contract",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b2"
+      },
+      "estimate": 15,
+      "plan": {
+        "date": "{{D0}}",
+        "start": 675,
+        "dur": 15
+      }
+    },
+    {
+      "id": "it3",
+      "title": "Sketch logo ideas",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b3"
+      },
+      "estimate": 45,
+      "plan": {
+        "date": "{{D0}}",
+        "start": 840,
+        "dur": 45
+      }
+    },
+    {
+      "id": "it4",
+      "title": "Read Four Thousand Weeks ch.3",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b4"
+      },
+      "estimate": 30
+    },
+    {
+      "id": "it5",
+      "title": "Gym",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b5"
+      },
+      "estimate": 60,
+      "plan": {
+        "date": "{{D0}}",
+        "start": 1080,
+        "dur": 60
+      }
+    },
+    {
+      "id": "it6",
+      "title": "Call dentist",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b7"
+      },
+      "errand": true
+    },
+    {
+      "id": "it7",
+      "title": "Groceries",
+      "type": "action",
+      "by": "me",
+      "created": "{{D0}}T07:45:00{{TZ}}",
+      "updated": "{{D0}}T07:45:00{{TZ}}",
+      "source": {
+        "paper": "paper-{{S0}}",
+        "block": "b8"
+      },
+      "errand": true,
+      "note": "eggs, oat milk, basil"
+    }
+  ]
+}
