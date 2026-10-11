@@ -130,7 +130,7 @@ function renderPanel() {
           h('button', { class: 'sr-t', type: 'button', onclick: () => openReview(d) }, L(`${shortDay(d)} 的日报`, `Review · ${shortDay(d)}`)),
           r !== shortDay(d) ? h('div', { class: 'sr-sub' }, r) : null)));
     }
-    if (!reviews.length) body.append(h('li', { class: 'sp-empty' }, L('还没有日报。在 Claude Code 里说「写今天的日报」，妥妥就会写一篇。', 'No reviews yet. Say "Write my daily review" in Claude Code and Toto will write one.')));
+    if (!reviews.length) body.append(h('li', { class: 'sp-empty' }, L('还没有日报。跟你的 AI 说「写今天的日报」，妥妥就会写一篇。', 'No reviews yet. Tell your AI "Write my daily review" and Toto will write one.')));
   } else if (tab === 'box') {
     body = h('ul', { class: 'shelf-list' });
     for (const p of boxedPapers()) {

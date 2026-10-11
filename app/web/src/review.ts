@@ -67,7 +67,7 @@ async function showHTML(d: string) {
 
 export async function openReview(day?: string) {
   await loadReviews();
-  if (!days.length) { toast(L('还没有日报。在 Claude Code 里说「写今天的日报」，妥妥就会写一篇', 'No reviews yet. Say "Write my daily review" in Claude Code and Toto will write one')); return; }
+  if (!days.length) { toast(L('还没有日报。跟你的 AI（比如 Claude Code）说「写今天的日报」，妥妥就会写一篇', 'No reviews yet. Tell your AI (Claude Code, say) "Write my daily review" and Toto will write one')); return; }
   const d = day && days.includes(day) ? day : days[days.length - 1];
   const i = days.indexOf(d);
   if (hasHTML.has(d)) await showHTML(d);
@@ -88,7 +88,7 @@ export function renderReviewBtn() {
   if (!btn) return;
   const last = days[days.length - 1];
   fill(btn, L('日报', 'Review'), last && last > seen() ? h('span', { class: 'dot-red', title: L('有新日报', 'New review') }) : null);
-  btn.title = last ? L(`最新一篇：${shortDay(last)}。在 Claude Code 里说「写今天的日报」`, `Latest: ${shortDay(last)}. Say "Write my daily review" in Claude Code`) : L('还没有日报。在 Claude Code 里说「写今天的日报」', 'No reviews yet. Say "Write my daily review" in Claude Code');
+  btn.title = last ? L(`最新一篇：${shortDay(last)}。跟 AI 说「写今天的日报」`, `Latest: ${shortDay(last)}. Tell your AI "Write my daily review"`) : L('还没有日报。跟 AI 说「写今天的日报」', 'No reviews yet. Tell your AI "Write my daily review"');
 }
 
 /** 文件变了（Claude Code 刚写好一篇）跟着刷新小点；正在看的那篇也重新载入 */

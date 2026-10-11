@@ -15,7 +15,7 @@ const STEPS: [string, string, string, string, string][] = [
   ['✍️', '纸上随手写', 'Scribble on the paper', '点空白处直接写；圈、编号、箭头都行。也可以把手写的纸拍下来拖进窗口。', 'Click anywhere and write. Circle, number, draw arrows. Or drop a photo of a handwritten page onto the window.'],
   ['🪷', '丢进池塘', 'Drop it in the pond', '想做的事拖到中间的池塘里，它就成了一件事：可以写多久、截止日。', 'Drag a thought into the pond in the middle and it becomes a task, with a time estimate and a due date if you like.'],
   ['🕘', '拖上时间轴', 'Put it on the timeline', '拖到右边的时间轴就排上了。打开「我的 → 写进系统日历」，iPhone 上也能看到。', 'Drag it to the timeline on the right. Turn on Me → Calendar and it shows up on your iPhone too.'],
-  ['🐘', '剩下的交给 Claude Code', 'Hand the rest to Claude Code', '在工作目录里打开 Claude Code，说「妥妥，帮我把今天排一下」「写今天的日报」。AI 改了什么都有 memo，能撤回。', 'Open Claude Code in your Diem folder and say "Toto, plan my day" or "Write my daily review". Every AI change comes with a memo you can undo.'],
+  ['🐘', '剩下的交给 AI', 'Hand the rest to your AI', '在工作目录里打开你的 AI（推荐 Claude Code，别家能改文件的 AI 也行），说「妥妥，帮我把今天排一下」「写今天的日报」。AI 改了什么都有 memo，能撤回。', 'Open your AI in your Diem folder (Claude Code recommended; any AI that can edit files works) and say "Toto, plan my day" or "Write my daily review". Every AI change comes with a memo you can undo.'],
 ];
 
 export function showOnboarding() {
@@ -58,7 +58,7 @@ export function showCrew() {
   });
   const box = modal(
     h('h3', null, L('认识小伙伴', 'Meet the crew')),
-    h('p', { class: 'muted' }, L('它们住在 Claude Code 里。动过你的东西，都会签上名字。', 'They live in Claude Code. Whatever they touch, they sign.')),
+    h('p', { class: 'muted' }, L('它们住在你的 AI 里。动过你的东西，都会签上名字。', 'They live in your AI. Whatever they touch, they sign.')),
     h('div', { class: 'crew' }, ...crew),
     h('div', { class: 'modal-row' }, h('button', { class: 'pill primary', type: 'button', onclick: () => box.remove() }, L('好', 'Nice to meet you'))),
   );

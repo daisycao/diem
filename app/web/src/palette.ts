@@ -70,7 +70,7 @@ export function current(): { id: PaletteId; why: string; auto: boolean } {
   const pick = S.ui.palette;
   if (pick && pick.date === today && pick.id in PALETTES) return { id: pick.id as PaletteId, why: L('你今天手选的', 'Picked by you today'), auto: false };
   if (override && override.date === today && override.palette in PALETTES) {
-    return { id: override.palette, why: override.why ?? L('Claude Code 今天选的', 'Picked by Claude Code today'), auto: true };
+    return { id: override.palette, why: override.why ?? L('AI 今天选的', 'Picked by your AI today'), auto: true };
   }
   if (S.ui.labs?.almanac) { const d = byDay(today); return { id: d.id, why: d.why, auto: true }; }
   const id = (S.ui.paletteDefault && S.ui.paletteDefault in PALETTES ? S.ui.paletteDefault : DEFAULT_PALETTE) as PaletteId;

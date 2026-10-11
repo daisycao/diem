@@ -220,7 +220,7 @@ function openSay(anchor: Element) {
         // 要接着打字的（「记下来：……」）只复制开头；其余连说明一起复制，交给 AI 的指令更清楚
         const say = phrase.includes('……') ? phrase.replace('……', '') : `${phrase}${L('：', ': ')}${what}`;
         navigator.clipboard?.writeText(say).catch(() => {});
-        toast(L(`在工作目录里打开 Claude Code，粘贴「${say}」（已复制）`, `Open Claude Code in your Diem folder and paste "${say}" (copied)`));
+        toast(L(`在工作目录里打开你的 AI（推荐 Claude Code），粘贴「${say}」（已复制）`, `Open your AI (Claude Code recommended) in your Diem folder and paste "${say}" (copied)`));
       },
     };
   }));

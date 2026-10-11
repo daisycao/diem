@@ -70,7 +70,7 @@ function renderBar() {
     h('button', { class: 'icon-btn', type: 'button', title: L('下一张纸', 'Next paper'), disabled: idx >= list.length - 1, onclick: () => switchPaper(list[idx + 1].id) }, '›'),
     h('span', { class: 'grow' }),
     p.tidied ? h('span', { class: 'tidied', title: L(`${animalName(p.tidied.by)} ${p.tidied.at.slice(11, 16)} 排过顺序`, `${animalName(p.tidied.by)} tidied at ${p.tidied.at.slice(11, 16)}`) + (p.tidied.note ? `${L('：', ': ')}${p.tidied.note}` : '') }, `${ANIMALS[p.tidied.by as keyof typeof ANIMALS]?.emoji ?? ''} ${L(`${p.tidied.at.slice(11, 16)} 排过`, `tidied ${p.tidied.at.slice(11, 16)}`)}`) : null,
-    full ? h('span', { class: 'full-hint', title: L('纸写满了或者块很多。要大整理就在 Claude Code 里说一声', 'The paper is getting full. Say "Tidy up" in Claude Code if you want') }, L('纸有点满了', 'Getting full')) : null,
+    full ? h('span', { class: 'full-hint', title: L('纸写满了或者块很多。要大整理就跟 AI 说一声', 'The paper is getting full. Tell your AI "Tidy up" if you want') }, L('纸有点满了', 'Getting full')) : null,
     h('button', { class: 'text-btn', type: 'button', title: L('对这张纸：复制、版本、新的一张、扔掉', 'This paper: copy, versions, new, discard'), onclick: (e: Event) => paperMenu(e.currentTarget as Element) }, L('这张纸 ▾', 'This paper ▾')),
   );
 }

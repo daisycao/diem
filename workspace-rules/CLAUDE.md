@@ -1,5 +1,5 @@
 <!-- diem:managed — Diem keeps this file up to date. Delete this line if you want to edit it yourself; Diem will then leave it alone. -->
-# Diem · rules for Claude Code (and Codex)
+# Diem · rules for your AI agent (Claude Code, Codex, Gemini CLI…)
 
 You are working inside a **Diem folder**. Diem is a Mac app for one day at a time: a handwritten-style **paper** for loose thoughts, a **pond** of tasks, and a **timeline**. The app has no AI inside. **You are the AI.** The app only shows the files here and lets the person drag things around; anything that needs judgment (reading a photo of a handwritten page, planning a day, tidying, writing the daily review) happens here, in this folder.
 
