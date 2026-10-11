@@ -21,7 +21,8 @@ export const S = {
     widths: { paperPlan: 420, listThink: 300, time: 300 },
   } as UIState,
   /** 时间轴正在看哪一天 */
-  day: ymd(),
+  // 浏览器调试可以用 ?day=YYYY-MM-DD 打开某一天 / ?day=YYYY-MM-DD opens a given day in the browser
+  day: new URLSearchParams(location.search).get('day') ?? ymd(),
   mtimes: {} as Record<string, number>,
   /** 正在改文字时不做外部重载，免得把光标冲掉 */
   editing: false,
