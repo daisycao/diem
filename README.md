@@ -12,7 +12,7 @@ Diem is a Mac app for one day at a time: a paper for loose thoughts, a pond for 
 
 [**Download Diem for Mac**](https://github.com/daisycao/diem/releases/latest) · macOS 14+ · Apple silicon & Intel · MIT
 
-![Diem: paper, pond, timeline](media/readme/app-en.png)
+<p align="center"><img src="media/readme/diem-demo.gif" width="800" alt="A handwritten page becomes a paper in Diem, Toto plans the day, things get ticked off, and Toto writes the daily review"></p>
 
 ## How a day goes
 
@@ -145,7 +145,7 @@ Needs Xcode command line tools and Node 20+. The UI is TypeScript (`app/web/src`
 
 [**下载 Mac 版**](https://github.com/daisycao/diem/releases/latest) · macOS 14+ · Apple 芯片和 Intel 都能用 · MIT
 
-![这一天：纸、池塘、时间轴](media/readme/app-en.png)
+<p align="center"><img src="media/readme/diem-demo.gif" width="800" alt="手写纸变成 Diem 里的纸，妥妥排好一天，一件件打勾，晚上妥妥写日报"></p>
 
 ## 一天怎么过
 
