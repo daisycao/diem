@@ -1,10 +1,16 @@
 <p align="center"><a href="README.md">English</a> · <b>简体中文</b></p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="media/brand/diem-logo-horizontal-white.svg">
+    <img src="media/brand/diem-logo-horizontal-green.svg" width="320" alt="这一天 · Diem">
+  </picture>
+</p>
+
 <!-- 首图：media/readme/hero.png，画好后放这里 -->
 
-# 这一天 · Diem
+<h3 align="center">手写你的一天，收回漂亮的一天。</h3>
 
-**手写你的一天，收回漂亮的一天。**
 
 「这一天」是一个 Mac 上的一日清单：一张随手写的纸、一个放「真要做的事」的池塘、一条时间轴。app 里没有 AI，**AI 就是你的 [Claude Code](https://claude.com/claude-code)**：它认你拍的手写纸、帮你排今天、晚上给你写一篇日报。它改的每一处都有 memo，都能撤回。
 
@@ -18,7 +24,11 @@
 
 **白天：排上。** 把一个念头拖进**池塘**，它就成了一件事；再拖到**时间轴**上，就排上了。或者说「妥妥，帮我把今天排一下」，🐘 妥妥给你一份留了白的排法，先用虚线框给你看，你照做、逐条挑或者不要。打开「写进系统日历」，每一块都会写进「Diem」日历，iPhone 上能看到、到点提醒。
 
-**晚上：回头看。** 在同一张纸上打勾、划掉，再拍一张，说「写今天的日报」。妥妥写一页日报：做成了什么、和计划比怎么样、时间去哪了、明天怎么排。
+**白天：在电脑上就行。** 打勾、拖动、补记，都在 app 里，不用再碰那张纸（想在纸上打勾、晚上再拍一张也行，拾拾一样认得）。
+
+**晚上：回头看。** 说「写今天的日报」，🐘 妥妥写一页日报，从你那张手写纸开始：做成了什么、和计划比怎么样、时间去哪了、明天怎么排。
+
+<p align="center"><img src="media/readme/review-en.png" width="560" alt="妥妥写的日报，从那张手写纸开始"></p>
 
 ## 认识小伙伴
 

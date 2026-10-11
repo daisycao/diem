@@ -449,6 +449,8 @@ button.chip:hover { color: var(--text); }
   justify-content: center; gap: 10px; transition: opacity .5s ease; pointer-events: none;
 }
 .splash.gone { opacity: 0; }
+.splash-mark { width: 84px; height: 84px; margin-bottom: 6px; }
+.splash-mark .ink { stroke: var(--ink); } .splash-mark .sun { stroke: var(--warm, #B5532F); fill: none; } .splash-mark .sun-disc { fill: var(--warm, #B5532F); }
 .splash-t { font-family: var(--hand); font-size: 44px; color: var(--ink); }
 .splash-s { color: var(--muted); letter-spacing: .2em; font-size: 12px; }
 .splash-c { color: var(--muted); font-style: italic; font-family: Georgia, "Times New Roman", serif; font-size: 13px; letter-spacing: .08em; opacity: .75; }
@@ -488,10 +490,11 @@ button.chip:hover { color: var(--text); }
   --desk: #d9e4e1; --panel: #eef3f1; --panel-2: #e2ebe8; --paper: #fcfdfb; --paper-edge: #e3ebe7;
   --ink: #1f5f63; --ink-soft: #4f8a8b; --accent: #1f5f63; --rule: #c3d2cf; --line: #d5e0dd; --done: #9fadab;
 }
-/* 青木 · 木 */
+/* 青木 · Diem 的颜色：Logo 的竹青 #2D5E3A，晨光橙 #B5532F 做点缀 */
 :root[data-palette="qingmu"] {
-  --desk: #dfe6d7; --panel: #f2f5ec; --panel-2: #e6ecdd; --paper: #fcfdf8; --paper-edge: #e5eadc;
-  --ink: #2f5d3a; --ink-soft: #5e8a5f; --accent: #2f5d3a; --rule: #c9d3bf; --line: #dae2d0; --done: #a4ae9e;
+  --desk: #e4e6dc; --panel: #f5f3ee; --panel-2: #ebe9e0; --paper: #fdfcf8; --paper-edge: #e6e4d9;
+  --ink: #2D5E3A; --ink-soft: #5e8a64; --accent: #2D5E3A; --rule: #cdd2c3; --line: #dee1d5; --done: #a6ad9f;
+  --warm: #B5532F;
 }
 /* 朱暖 · 适度火（赭石，不用大红） */
 :root[data-palette="zhunuan"] {
@@ -515,6 +518,7 @@ button.chip:hover { color: var(--text); }
   :root[data-palette="qingmu"]:not([data-theme="light"]) {
     --desk: #151a15; --panel: #1b211b; --panel-2: #212821; --paper: #1f251f; --paper-edge: #2b332b;
     --ink: #9fd08f; --ink-soft: #7aa870; --accent: #9fd08f; --rule: #36403a; --line: #2b332b; --done: #5f6a5c;
+    --warm: #E08A5F;
   }
   :root[data-palette="zhunuan"]:not([data-theme="light"]) {
     --desk: #1c1714; --panel: #221c18; --panel-2: #29221d; --paper: #26201b; --paper-edge: #332a24;

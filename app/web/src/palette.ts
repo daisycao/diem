@@ -1,6 +1,6 @@
-// 配色：六套墨色，水为主、木为辅、一点暖色。默认「玄水」（蓝黑墨水）。
+// 配色：六套墨色。默认「青木」，也就是 Logo 的竹青配晨光橙。
 // 实验功能「跟着流日」：按当天的干支五行换一套，图个好心情。
-// Palettes: six ink colors. Default is Ink (blue-black). The "follow the day" lab picks one
+// Palettes: six ink colors. Default is Diem green, the logo's bamboo green with a sunrise orange. The "follow the day" lab picks one
 // from the day's Chinese stem-and-branch element, just for a good mood.
 import { fs } from './bridge';
 import { L } from './i18n';
@@ -12,17 +12,17 @@ export type PaletteId = 'xuanshui' | 'moxuan' | 'canghai' | 'hanqing' | 'qingmu'
 type Palette = { zh: string; en: string; swatch: string; says: string; saysEn: string };
 /** 顺序就是菜单顺序 */
 const RAW: Record<PaletteId, Palette> = {
+  qingmu: { zh: '青木', en: 'Diem green', swatch: '#2D5E3A', says: 'Diem 的颜色：竹青配一点晨光', saysEn: 'The Diem color: bamboo green with a little morning sun.' },
   xuanshui: { zh: '玄水', en: 'Ink', swatch: '#1b2a5e', says: '蓝黑墨水，最稳的颜色', saysEn: 'Blue-black ink. The steadiest one.' },
   moxuan: { zh: '墨玄', en: 'Night', swatch: '#101318', says: '夜里摊开一张纸', saysEn: 'A sheet of paper at night.' },
   canghai: { zh: '沧海', en: 'Ocean', swatch: '#0f4c81', says: '清凉的海蓝，给燥热的日子降温', saysEn: 'Cool sea blue for a hot, busy day.' },
   hanqing: { zh: '涵青', en: 'Teal', swatch: '#1f5f63', says: '心定、好推进', saysEn: 'Calm, and good for moving things along.' },
-  qingmu: { zh: '青木', en: 'Bamboo', swatch: '#2f5d3a', says: '给自己撑腰，适合啃硬骨头', saysEn: 'Backbone for the hard tasks.' },
   zhunuan: { zh: '朱暖', en: 'Ember', swatch: '#8f4328', says: '一点暖色，适合表达、见人、发东西', saysEn: 'A little warmth for talking, meeting, shipping.' },
 };
 export const PALETTES = Object.fromEntries(Object.entries(RAW).map(([k, p]) =>
   [k, { name: L(p.zh, p.en), swatch: p.swatch, says: L(p.says, p.saysEn) }])) as Record<PaletteId, { name: string; swatch: string; says: string }>;
 
-export const DEFAULT_PALETTE: PaletteId = 'xuanshui';
+export const DEFAULT_PALETTE: PaletteId = 'qingmu';
 
 const GAN = '甲乙丙丁戊己庚辛壬癸';
 const ZHI = '子丑寅卯辰巳午未申酉戌亥';

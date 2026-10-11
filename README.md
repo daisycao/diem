@@ -1,10 +1,16 @@
 <p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="media/brand/diem-logo-horizontal-white.svg">
+    <img src="media/brand/diem-logo-horizontal-green.svg" width="320" alt="Diem">
+  </picture>
+</p>
+
 <!-- HERO IMAGE: media/readme/hero.png goes here once drawn -->
 
-# Diem
+<h3 align="center">Handwrite your day. Get a beautiful day back.</h3>
 
-**Handwrite your day. Get a beautiful day back.**
 
 Diem is a Mac app for one day at a time: a paper for loose thoughts, a pond for the things you'll actually do, and a timeline. There is no AI inside the app. **The AI is your [Claude Code](https://claude.com/claude-code)**: it reads a photo of your handwritten page, plans your day, and writes you a daily review in the evening. Every change it makes comes with a note you can undo.
 
@@ -18,9 +24,11 @@ Diem is a Mac app for one day at a time: a paper for loose thoughts, a pond for 
 
 **Midday: make it real.** Drag a thought into the **pond** and it becomes a task. Drag a task onto the **timeline** and it's planned. Or say *"Toto, plan my day"* and 🐘 Toto proposes a plan with white space left in it; you see dashed outlines, then accept, pick, or say no. Turn on **Write to Calendar** and every block lands in a "Diem" calendar, so your iPhone shows it and reminds you.
 
-**Evening: look back.** Tick and cross out on the same sheet of paper, snap it again, and say *"Write my daily review"*. Toto writes a review page: what got done, how the day really went against the plan, where the time went, and what tomorrow looks like.
+**All day: just use the app.** Tick things off, drag them around, log what you did. No need to touch the paper again (though if you'd rather tick the sheet and snap it once more at night, Pip can read that too).
 
-<!-- REVIEW SCREENSHOT: media/readme/review.png (from the real handwritten page) -->
+**Evening: look back.** Say *"Write my daily review"*. 🐘 Toto writes you a page that starts from your handwritten sheet: what got done, how the day went against the plan, where the time went, and what tomorrow looks like.
+
+<p align="center"><img src="media/readme/review-en.png" width="560" alt="A daily review written by Toto, starting from the handwritten page"></p>
 
 ## Meet the crew
 

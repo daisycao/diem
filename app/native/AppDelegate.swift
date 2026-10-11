@@ -111,7 +111,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler
         window.minSize = NSSize(width: 980, height: 620)
         window.titlebarAppearsTransparent = true
         window.titleVisibility = .hidden
-        window.backgroundColor = NSColor(calibratedRed: 0.874, green: 0.89, blue: 0.91, alpha: 1)
+        window.backgroundColor = NSColor(calibratedRed: 0.894, green: 0.902, blue: 0.863, alpha: 1)
         window.setFrameAutosaveName("DiemMain")
 
         let container = NSView(frame: NSRect(x: 0, y: 0, width: 1440, height: 900))
@@ -605,7 +605,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler
         if let c = events.calendars(for: .event).first(where: { $0.title == "Diem" && $0.allowsContentModifications }) { return c }
         let c = EKCalendar(for: .event, eventStore: events)
         c.title = "Diem"
-        c.cgColor = NSColor(calibratedRed: 0.106, green: 0.165, blue: 0.369, alpha: 1).cgColor
+        c.cgColor = NSColor(calibratedRed: 0.176, green: 0.369, blue: 0.227, alpha: 1).cgColor
         let sources = events.sources
         c.source = sources.first(where: { $0.sourceType == .calDAV && $0.title.lowercased().contains("icloud") })
             ?? events.defaultCalendarForNewEvents?.source
