@@ -1,3 +1,5 @@
+<p align="center"><a href="README.md">English</a> · <b>简体中文</b></p>
+
 <!-- 首图：media/readme/hero.png，画好后放这里 -->
 
 # 这一天 · Diem
@@ -6,7 +8,7 @@
 
 「这一天」是一个 Mac 上的一日清单：一张随手写的纸、一个放「真要做的事」的池塘、一条时间轴。app 里没有 AI，**AI 就是你的 [Claude Code](https://claude.com/claude-code)**：它认你拍的手写纸、帮你排今天、晚上给你写一篇日报。它改的每一处都有 memo，都能撤回。
 
-[**下载 Mac 版**](../../releases/latest) · macOS 14+ · Apple 芯片和 Intel 都能用 · MIT · [English](README.md)
+[**下载 Mac 版**](https://github.com/daisycao/diem/releases/latest) · macOS 14+ · Apple 芯片和 Intel 都能用 · MIT
 
 ![这一天：纸、池塘、时间轴](media/readme/app-en.png)
 
@@ -40,7 +42,7 @@
 
 ## 开始用
 
-1. [下载](../../releases/latest) `Diem.dmg`，把 Diem 拖进「应用程序」再打开。
+1. [下载](https://github.com/daisycao/diem/releases/latest) `Diem.dmg`，把 Diem 拖进「应用程序」再打开。
    还没做公证，第一次 macOS 可能拦着：右键 Diem →「打开」→「打开」，或者去「系统设置 › 隐私与安全性」点「仍要打开」。
 2. 这一天会建好 `~/Documents/Diem`，里面有一天的示例（「我的 → 换一个工作目录…」可以换）。
 3. 装好 [Claude Code](https://claude.com/claude-code)，然后：

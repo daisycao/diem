@@ -1,3 +1,5 @@
+<p align="center"><b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
+
 <!-- HERO IMAGE: media/readme/hero.png goes here once drawn -->
 
 # Diem
@@ -6,7 +8,7 @@
 
 Diem is a Mac app for one day at a time: a paper for loose thoughts, a pond for the things you'll actually do, and a timeline. There is no AI inside the app. **The AI is your [Claude Code](https://claude.com/claude-code)**: it reads a photo of your handwritten page, plans your day, and writes you a daily review in the evening. Every change it makes comes with a note you can undo.
 
-[**Download Diem for Mac**](../../releases/latest) · macOS 14+ · Apple silicon & Intel · MIT · [中文说明](README.zh-CN.md)
+[**Download Diem for Mac**](https://github.com/daisycao/diem/releases/latest) · macOS 14+ · Apple silicon & Intel · MIT
 
 ![Diem: paper, pond, timeline](media/readme/app-en.png)
 
@@ -42,7 +44,7 @@ They live in Claude Code. Whatever they touch, they sign.
 
 ## Get started
 
-1. [Download](../../releases/latest) `Diem.dmg`, drag Diem to Applications, and open it.
+1. [Download](https://github.com/daisycao/diem/releases/latest) `Diem.dmg`, drag Diem to Applications, and open it.
    The app isn't notarized yet, so the first time macOS may refuse: right-click Diem → **Open** → **Open**, or go to System Settings → Privacy & Security → **Open Anyway**.
 2. Diem creates `~/Documents/Diem` with a sample day in it. (Me → *Use another folder…* to pick a different one.)
 3. Install [Claude Code](https://claude.com/claude-code), then:
